@@ -1,6 +1,6 @@
-import Home from "./Components/Home"
-import Menu from "./Components/Menu"
+import Home from "./Pages/Home"
 import Navbar from "./Components/Navbar"
+import Menu from "./Components/Menu/Menu"
 
 function App() {
   return (
