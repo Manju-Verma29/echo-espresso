@@ -16,9 +16,12 @@ export default function VisitUs() {
     <img src={visit} alt="" />
     </div>
     
-    <div className='m-auto grid place-items-center grid-rows-3 gap-y-6 justify-center items-center'>
-    <p className='text-xl p-3 text-amber-900 tracking-wide'>An invitation to slow down.
-    Step into a space where time softens, flavors deepen, and every detail is considered.</p>
+    <div className='m-auto  place-items-center '>
+    <h2 className="text-amber-900 text-5xl mb-8 font-bold">Unhurried. Familiar. Refined.</h2>
+    <p className="max-w-3xl text-xl p-3 text-center text-amber-900 tracking-wide">
+  Make space in your day to slow down and settle in, where every visit is designed to feel unhurried, familiar, and quietly refined.
+</p>
+
     </div>
 </div>
 </article>
@@ -27,11 +30,14 @@ export default function VisitUs() {
     <h2 className='text-5xl pl-18 text-amber-900 my-8'>Our Location</h2>
     <div  className='grid grid-cols-2 m-5 pb-10 px-10'>
 
-    <div className='m-auto grid place-items-center grid-rows-3 gap-y-6 justify-center items-center'>
-    <p className='text-xl p-3 text-amber-900 tracking-wide'>Echo Espresso
-    123 Brew Lane
-    Your City, Your State 
-    Nestled in a quiet corner of the city, our café offers a refined escape from the everyday.</p>
+    <div className='m-auto  '>
+    <p className='text-xl p-3 text-amber-900 tracking-wide'>
+        <p>Echo Espresso</p>
+        <p>21 Stillwater Passage,</p>
+        <p>The Commons,</p>
+        <p>Aurelian 560022</p>
+    
+    </p>
     </div>
 
     <div className='p-4'>
@@ -61,9 +67,12 @@ export default function VisitUs() {
     <h2 className='text-5xl pl-18 text-amber-900 my-8'>Arriving</h2>
     <div className="grid  pb-10 grid-cols-2 m-5  px-10">
 
-    <div className='m-auto grid place-items-center grid-rows-3 gap-y-6 justify-center items-center'>
-    <p className='text-2xl text-amber-900 tracking-wide'>Easily accessible by foot, car, and public transport.</p>
-    <p className="text-2xl text-amber-900 tracking-wide">Nearby parking ensures a seamless arrival.</p>
+    <div className='m-auto place-items-center'>
+    <h2 className="text-amber-900 font-bold m-8 text-5xl">
+            A Calm Welcome
+    </h2>
+    <p className='text-3xl text-amber-900 tracking-wide'>Easily accessible by foot, car, and public transport.</p>
+    <p className="text-3xl text-amber-900 tracking-wide">Nearby parking ensures a seamless arrival.</p>
     </div>
 
     <div className='p-4'>  
@@ -74,42 +83,48 @@ export default function VisitUs() {
 
 <article>
     <h2 className='text-5xl pl-18 text-amber-900 my-8'>Contact</h2>
-    <div className='grid grid-cols-2 m-5 pb-10 px-10'>
+    <div className='grid grid-cols-2  m-auto pb-10 px-10  '>
     <div className='p-4'> 
     <img src={contact} alt="" />
     </div>
 
-    <div className='m-auto grid place-items-center grid-rows-3 gap-y-6 justify-center items-center'>
-    <p className='text-xl p-3 text-amber-900 tracking-wide'>📞 +91 98765 43210
-    ✉️ hello@echoespresso.com
-
-    For reservations, private tastings, or special requests, please reach out in advance.</p>
+    <div className=' '>
+    <form action="" className="grid py-20">
+        <label className="text-amber-900 text-2xl text-center">Ask your question</label>
+        <div className="grid gap-5 m-5"> 
+        <div>
+            <input type="text" placeholder="Your name" className="border w-full text-amber-900 rounded-xl bg-amber-100 p-3 focus:ring-current text-xl" />
+        </div>
+        <div>
+            <input type="number" placeholder="Phone number"  className="border w-full text-amber-900 rounded-lg bg-amber-100 p-3 text-xl"/>
+        </div>
+        <div>
+            <input type="email" placeholder="yourexample@gmail.com"  className="border w-full text-amber-900 rounded-md bg-amber-100 p-3 text-xl"/>
+        </div>
+        <div>
+            <input type="button" value="Submit" className="border w-full text-amber-100 font-bold bg-amber-900 rounded-xl p-3 text-xl" />
+        </div>
+        </div>
+    </form>
     </div> 
     </div> 
 </article>
 
 <article>
-    <h2 className='text-5xl p-9 text-amber-900 my-8'>What to Expect</h2>
-    <div className="grid grid-cols-2 m-5 pb-10 px-10">
-     <div className='m-auto grid place-items-center grid-rows-3 gap-y-6 justify-center items-center'>
-    <div className='text-2xl p-3 my-auto text-amber-900 tracking-wide'>
-        <h4>Thoughtfully designed seating</h4>
-        <h4>A calm, intimate ambiance</h4>
-        <h4>Carefully curated music</h4>
-        <h4>Seamless digital and cash payments</h4>
-        <h4>Complimentary Wi-Fi</h4>
-        <h4>Your Table Awaits</h4>
-        <h4> Come for the craft. Stay for the moment.</h4>
-    </div>
+    <h2 className='text-5xl pl-18 text-amber-900 my-8'>What to Expect</h2>        
+     <div className='grid grid-cols-2 px-10 m-auto place-items-center '>
+    <div className='text-2xl p-3 my-auto text-center text-amber-900 tracking-wide'>
+        <h2 className="text-amber-900 m-8 font-bold text-5xl">
+            Crafted With Care
+        </h2>
+        <p>From thoughtfully prepared drinks to attentive service and a calm
+    atmosphere, every detail is designed to feel considered and consistent.</p>
     </div>
 
-    <div className='p-4'>
-    <img src={expect}  />
+    <div className='px-4'>
+    <img src={expect} />
     </div>
-
-   
     </div>
-    
 </article>
 </main>
     </>
