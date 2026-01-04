@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import hero from "../assets/hero.mp4";
 
 export default function Home() {
@@ -19,15 +20,15 @@ return (
 
   <div className="flex gap-8">
     <button className="border-2 hover:shadow-2xl hover:border-amber-100 hover:text-amber-100 cursor-pointer border-white text-white font-bold px-9 py-3 rounded-md text-md md:text-lg lg:text-xl ">
-     <a to="/menu">
+     <NavLink to="/menu">
        Menu
-     </a>
+     </NavLink>
     </button>
 
     <button className="border-2 hover:shadow-2xl hover:border-amber-100 hover:text-amber-100 cursor-pointer border-white text-white font-bold px-7 py-3 rounded-md text-xl">
-      <a to="/reservations">
+      <NavLink to="/reservations">
        Reserve a Table
-     </a> 
+     </NavLink> 
     </button>
   </div>
 
