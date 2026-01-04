@@ -25,8 +25,8 @@ return (
     </button>
 
     <button className="border-2 hover:shadow-2xl hover:border-amber-100 hover:text-amber-100 cursor-pointer border-white text-white font-bold px-7 py-3 rounded-md text-xl">
-      <a to="/order">
-       Order now
+      <a to="/reservations">
+       Reserve a Table
      </a> 
     </button>
   </div>
