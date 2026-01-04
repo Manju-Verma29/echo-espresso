@@ -3,11 +3,11 @@ import { galleryData } from '../assets/gallery/galleryData';
 export default function Gallery() {
   return (
     <>
-        <article className='bg-amber-100 pl-5 py-8'>
-            <div className='grid grid-cols-4 gap-8 bg-amber-100'>
+        <article className='bg-amber-100 pl-2 py-8'>
+            <div className='grid md:grid-cols-3 lg:grid-cols-4 md:gap-3 lg:gap-4 bg-amber-100'>
                 {galleryData.map((img) => (
                     <div key={img.id}>
-                    <img src={img.src} className=' ' />
+                    <img src={img.src}/>
                     </div>
                 ))}
             </div>  
