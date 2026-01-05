@@ -83,9 +83,9 @@ title: "Contact",
 image: contact,
 content: (
     <>
-    <form action="" className="grid py-20">
-        <label className="text-amber-900 text-2xl text-center">Ask your question</label>
-        <div className="grid gap-5 m-5">
+    <form action="" className="grid">
+        <label className="text-amber-900 text-2xl pb-3 text-center">Ask your question</label>
+        <div className="grid md:gap-2 lg:gap-5 lg:w-175">
         <div>
             <input type="text" placeholder="Your name" className="border w-full text-amber-900 rounded-md bg-amber-100 p-3 focus:ring-current text-xl" />
         </div>
