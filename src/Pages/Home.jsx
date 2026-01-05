@@ -4,7 +4,7 @@ import hero from "../assets/hero.mp4";
 export default function Home() {
 return (
   <>
-  <main>
+  <main className="pt-20">
   <section className="relative h-screen overflow-hidden playsInline">
   <video className="absolute inset-0 w-full h-full object-cover" src={hero} autoPlay loop muted />
     
