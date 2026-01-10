@@ -1,25 +1,56 @@
 import logo from "../assets/logo.png";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
+    const linkClass = ({ isActive }) => isActive ? "text-amber-900 lg:text-lg font-bold border-b-2 border-amber-900 transition" : "text-amber-800 lg:text-lg hover:underline transition";
 return (
 <>
-<header className='bg-amber-100 shadow'>
-<div className='mx-auto w-full px-6 lg:px-30 '>
-<div className='flex xs:h-20 sm:h-20 md:h-20 lg:h-25 items-center justify-between gap-9 '>
-<div className='flex items-center justify-between gap-3 lg:gap-5'>
-    <img src={logo} alt="logo" className='w-10 lg:w-16 ' />
-    <h5 className='text-amber-900 font-mono lg:text-3xl tracking-wider font-semibold '>
+<header className='fixed top-0 left-0 w-full z-50 bg-amber-100'>
+<div className='mx-auto w-full px-2 md:px-15 lg:px-20'>
+<div className='flex h-15 sm:h-20 md:h-20 lg:h-25 items-center justify-between gap-4 lg:gap-9 '>
+<div className='flex items-center justify-between gap-1 md:gap-3 lg:gap-5'>
+    <img src={logo} alt="logo" className='w-10 lg:w-15' />
+    <h5 className='text-amber-900 font-mono text-sm md:text-md lg:text-2xl tracking-wider font-semibold '>
         ECHO ESPRESSO
     </h5>
 </div>
 
-<nav aria-label='Primary navigation' className='absolute left-1/2 ' >
-<ul className='flex gap-8 lg:gap-25 text-sm font-medium'> 
-    <li><a href="/" className='text-amber-900 lg:text-lg transition'>Home</a></li>
-    <li><a href="/about" className='text-amber-900 lg:text-lg transition' >About</a></li>
-    <li><a href="/menu" className='text-amber-900 lg:text-lg transition' >Menu</a></li>
-    <li><a href="/visit" className='text-amber-900 lg:text-lg transition' >Visit Us</a></li>
-    <li><a href="/socials" className='text-amber-900 lg:text-lg transition' >Socials</a></li>
+<nav aria-label='Primary navigation' >
+<ul className='flex gap-2 sm:gap-10 md:gap-15 lg:gap-25 text-xs '> 
+    <li>
+        <NavLink to="/" className={linkClass}>
+        Home
+        </NavLink>
+    </li>
+
+    <li>
+        <NavLink to="/about" className={linkClass}>
+            About
+        </NavLink>
+    </li>
+
+    <li>
+        <NavLink to="/menu" className={linkClass}>
+            Menu
+        </NavLink>
+    </li>
+    <li>
+        <NavLink to="/visit" className={linkClass}>
+            Visit Us
+        </NavLink>
+    </li>
+
+    <li>
+        <NavLink to="/socials" className={linkClass}>
+            Socials
+        </NavLink>
+    </li>
+
+    <li>
+        <NavLink to="/gallery" className={linkClass}>
+            Gallery
+        </NavLink>
+    </li>
 </ul>
 </nav>
 </div>

@@ -1,10 +1,10 @@
 import  VisitSection  from "./VisitSection";
 import {visitData} from "./visitData";
 
-export default function Visit2us() {
+export default function Visitus() {
   return (
 <>
-<main className="pt-20">
+<main>
   {visitData.map((section) => (
       <VisitSection 
       key={section.id} 
