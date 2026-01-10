@@ -96,7 +96,7 @@ content: (
             <input type="email" placeholder="yourexample@gmail.com"  className="border w-full text-amber-900 rounded-md bg-amber-100 p-1 lg:p-3 text-xl"/>
         </div>
         <div>
-            <input type="button" value="Submit" className="border w-full text-amber-100 font-bold bg-amber-900 rounded-md p-3 text-md md:text-xl" />
+            <input type="button" value="Submit" className="border w-full text-amber-100 font-bold bg-amber-900 hover:bg-amber-950 rounded-md p-3 text-md md:text-xl" />
         </div>
         </div>
     </form>
