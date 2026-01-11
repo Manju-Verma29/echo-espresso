@@ -49,7 +49,7 @@ content: (
         9:00 AM – 11:00 PM
     </h3>
     <p className="md:text-xl lg:text-2xl p-3 text-center text-amber-900 tracking-wide">
-        Make it your week at Echo Espresso.
+        Join us for a seamless blend of refined flavors and impeccable service, perfect for any moment of your day.
     </p>
     </div>
     </>
@@ -115,7 +115,7 @@ content: (
         Luxury, Delivered with Restraint
     </h3>
     <p className=" md:text-xl lg:text-2xl p-3 text-center text-amber-900 tracking-wide">
-        An atmosphere of calm sophistication, exceptional craftsmanship, attentive service, and thoughtfully curated flavors — where every visit feels intentional.
+        An atmosphere of calm sophistication, exceptional craftsmanship, attentive service, and thoughtfully curated flavors, where every visit feels intentional.
     </p>
     </div>
     </>
