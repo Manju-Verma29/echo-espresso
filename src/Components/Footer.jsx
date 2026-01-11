@@ -24,8 +24,8 @@ export default function Footer() {
             <Link to='/reservations' className='text-xs md:text-md lg:text-lg'>
                 Reservations
             </Link>
-            <Link to='/about' className='text-xs md:text-md lg:text-lg'>
-                Our Story
+            <Link to='/contact' className='text-xs md:text-md lg:text-lg'>
+                Contact
             </Link>
         </section>
 
