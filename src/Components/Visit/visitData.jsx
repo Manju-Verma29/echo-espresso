@@ -8,117 +8,39 @@ import expect from "../../assets/expect.jpg";
 export const visitData = [
 {
 id:1,
-title: "Visit Us",
+label: "Visit Us",
 image: visit,
-content: (
-    <>
-    <div>
-    <h3 className="text-amber-900 text-center md:text-xl lg:text-4xl lg:mb-5 font-bold">
-        Unhurried. Familiar. Refined.
-    </h3>
-    <p className="md:text-xl lg:text-2xl p-3 text-center text-amber-900 tracking-wide">
-        Make space in your day to slow down and settle in, where every visit is designed to feel unhurried, familiar, and quietly refined.
-    </p>
-    </div>
-    </>
-),
+title:"Unhurried. Refined.",
+detail:"Make space in your day to slow down and settle in, where every visit is designed to feel familiar, and quietly refined."
 },
 
 {
 id:2,
-title: "Our Location",
+label: "Our Location",
 image: location,
-content: (
-    <address className="place-items-center md:text-xl lg:text-2xl p-3 text-amber-900 tracking-wide">
-    <p>Echo Espresso</p>
-    <p>21 Stillwater Passage,</p>
-    <p>The Commons,</p>
-    <p>Aurelian 560022</p>
-    </address>
-),
+detail:"21 Stillwater Passage, The Commons, Aurelian 560022"
 },
 
 {
 id:3,
-title: "Open Hours",
+label: "Open Hours",
 image: openHours,
-content: (
-    <>
-    <div>
-    <h3 className="text-amber-900 text-center md:text-xl lg:text-4xl lg:mb-5 font-bold">
-        9:00 AM – 11:00 PM
-    </h3>
-    <p className="md:text-xl lg:text-2xl p-3 text-center text-amber-900 tracking-wide">
-        Join us for a seamless blend of refined flavors and impeccable service, perfect for any moment of your day.
-    </p>
-    </div>
-    </>
-),
+title:"9:00 AM – 11:00 PM",
+detail:"Join us for a seamless blend of refined flavors and impeccable service, perfect for any moment of your day."
 },
 
 {
 id:4,
-title: "Arriving",
+label: "Arriving",
 image: arrive,
-content: (
-    <>
-    <div>
-    <h3 className="text-amber-900 text-center md:text-3xl lg:text-4xl lg:mb-5 font-bold">
-        A Calm Welcome
-    </h3>
-    <p className="md:text-xl lg:text-2xl p-3  text-center text-amber-900 tracking-wide">
-        Easily accessible by foot, car, and public transport.
-    </p>
-    <p className="md:text-xl lg:text-2xl lg:p-3 md:p-0 text-center text-amber-900 tracking-wide">
-        Nearby parking ensures a seamless arrival.
-    </p>
-    </div>
-    </>
-),
+title:"A Calm Welcome",
+detail:"Easily accessible by foot, car, and public transport. Nearby parking ensures a seamless arrival."
 },
-
 {
 id:5,
-title: "Contact",
-image: contact,
-content: (
-    <>
-    <form action="" className="grid">
-        <label className="text-amber-900 text-lg md:text-2xl pb-3 text-center">Ask your question</label>
-        <div className="grid gap-2 lg:gap-5 lg:w-175">
-        <div>
-            <input type="text" placeholder="Your name" className="border w-full text-amber-900 rounded-md bg-amber-100 p-1 lg:p-3 focus:ring-current text-xl" />
-        </div>
-        <div>
-            <input type="number" placeholder="Phone number"  className="border w-full text-amber-900 rounded-md bg-amber-100 p-1 lg:p-3 text-xl"/>
-        </div>
-        <div>
-            <input type="email" placeholder="yourexample@gmail.com"  className="border w-full text-amber-900 rounded-md bg-amber-100 p-1 lg:p-3 text-xl"/>
-        </div>
-        <div>
-            <input type="button" value="Submit" className="border w-full text-amber-100 font-bold bg-amber-900 hover:bg-amber-950 rounded-md p-3 text-md md:text-xl" />
-        </div>
-        </div>
-    </form>
-    </>
-),
-},
-
-{
-id:6,
-title: "What to Expect",
+label: "What to Expect",
 image: expect,
-content: (
-    <>
-    <div>
-    <h3 className="text-amber-900 text-center md:text-3xl lg:text-4xl lg:mb-5 font-bold">
-        Luxury, Delivered with Restraint
-    </h3>
-    <p className=" md:text-xl lg:text-2xl p-3 text-center text-amber-900 tracking-wide">
-        An atmosphere of calm sophistication, exceptional craftsmanship, attentive service, and thoughtfully curated flavors, where every visit feels intentional.
-    </p>
-    </div>
-    </>
-),
-},
+title: "Luxury, Delivered with Restraint",
+detail:"A refined space, expertly crafted coffee and a calm atmosphere, designed to be enjoyed without rush."
+}
 ]
