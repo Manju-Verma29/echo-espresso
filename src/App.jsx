@@ -8,7 +8,8 @@ import Socials from "./Components/Socials/Socials"
 import Gallery from "./Pages/Gallery"
 import Reservations from "./Pages/Reservations"
 import MenuTypePage from "./Components/Menu/MenuTypePage"
-// import Footer from "./Components/Footer"
+import Footer from "./Components/Footer"
+
 
 function App() {
   return (
@@ -26,9 +27,10 @@ function App() {
         <Route path="/visit" element={<Visitus/>} />
         <Route path="/socials" element={<Socials/>} />
         <Route path="/gallery" element={<Gallery/>} />
+        
       </Routes>
     </div>
-    {/* <Footer /> */}
+    <Footer /> 
     </Router>
     </>
   )
