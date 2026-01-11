@@ -14,7 +14,7 @@ export default function AboutSection({title,image,children}) {
     </div>      
     </section>
 
-    <section className="hidden lg:block pt-12" >
+    <section className="hidden lg:block p-12" >
     <div className=" grid place-items-center grid-cols-2">
     <div className="place-items-center">
         <h2 className="md:text-2xl mb-8 lg:text-4xl pl-15 text-amber-900">{title}</h2>

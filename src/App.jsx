@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import {BrowserRouter as Router, Routes, Route, useLocation} from "react-router-dom"
 import Home from "./Pages/Home"
 import Navbar from "./Components/Navbar"
 import Menu from "./Components/Menu/Menu"
@@ -8,6 +8,7 @@ import Socials from "./Components/Socials/Socials"
 import Gallery from "./Pages/Gallery"
 import Reservations from "./Pages/Reservations"
 import MenuTypePage from "./Components/Menu/MenuTypePage"
+// import Footer from "./Components/Footer"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/gallery" element={<Gallery/>} />
       </Routes>
     </div>
+    {/* <Footer /> */}
     </Router>
     </>
   )
