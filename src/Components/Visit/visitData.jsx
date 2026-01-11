@@ -2,7 +2,6 @@ import visit from "../../assets/visit.jpg";
 import location from "../../assets/location.jpg";
 import openHours from "../../assets/openHours.jpg";
 import arrive from "../../assets/arrive.jpg";
-import contact from "../../assets/contact.jpg";
 import expect from "../../assets/expect.jpg";
 
 export const visitData = [
