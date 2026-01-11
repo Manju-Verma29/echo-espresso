@@ -60,13 +60,5 @@ export const socialsData=[
             <p className=' text-amber-900 md:text-lg lg:text-xl text-center lg:p-3 tracking-wide'>Some conversations are better held at the table. Join us for coffee, stay for the pause.</p>
             </>
         )
-    },
-    {
-        id:5,
-        content:(
-            <>
-            <p className="md:text-lg lg:text-xl italic text-amber-900">Connection begins quietly.</p>
-            </>
-        )
-    },
+    }
 ]
