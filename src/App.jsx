@@ -9,6 +9,7 @@ import Gallery from "./Pages/Gallery"
 import Reservations from "./Pages/Reservations"
 import MenuTypePage from "./Components/Menu/MenuTypePage"
 import Footer from "./Components/Footer"
+import Contact from "./Components/Contact"
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         <Route path="/visit" element={<Visitus/>} />
         <Route path="/socials" element={<Socials/>} />
         <Route path="/gallery" element={<Gallery/>} />
-        
+        <Route path="/contact" element={< Contact/>} />
       </Routes>
     </div>
     <Footer /> 
