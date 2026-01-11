@@ -14,7 +14,7 @@ import tiramisu from '../../assets/category/tiramisu.jpeg'
 import classicEspresso from '../../assets/category/classicEspresso.jpeg'
 import cinnamonRollLatte from '../../assets/category/cinnamonRollLatte.jpeg'
 import midnightMocha from '../../assets/category/midnightMocha.jpeg'
-import honeyOatMilk from '../../assets/category/HoneyOatMilk.jpeg'
+import honeyOatMilk from '../../assets/category/honeyOatMilk.jpeg'
 import cortado from '../../assets/category/cortado.png'
 import viennaCream from '../../assets/category/viennaCream.jpeg'
 
