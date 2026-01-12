@@ -13,7 +13,7 @@ export default function Reservations() {
       <div className="grid grid-cols-1 gap-3">   
       <input type="text" placeholder="Full Name" className="w-full border border-amber-900 p-3 text-base sm:text-xl text-amber-900 rounded-md focus:outline-none"  required/>
       <input type="number" placeholder="Phone Number" className="w-full border border-amber-900 p-3 text-base sm:text-xl text-amber-900 rounded-md focus:outline-none"  required/>
-      <input type="date" placeholder="Date" min={today} className="w-full border border-amber-900 p-3 text-base sm:text-xl text-amber-900 rounded-md focus:outline-none"  required/>
+      <input type="date" defaultValue={today} min={today} className="w-full border border-amber-900 p-3 text-base sm:text-xl text-amber-900 rounded-md focus:outline-none"  required/>
       <input type="number" placeholder="Number of guests" className="w-full border border-amber-900 p-3 text-base sm:text-xl text-amber-900 rounded-md focus:outline-none"  required/>
       <textarea rows={5} placeholder="Special requests" className="w-full border border-amber-900 p-3 text-base sm:text-xl text-amber-900 rounded-md focus:outline-none"  required/>
       <input type="submit" value="Submit" className="w-full bg-amber-900 hover:bg-amber-950 text-amber-100 p-3 text-base sm:text-xl font-bold rounded-md cursor-pointer"/>
