@@ -16,17 +16,17 @@ Image & Asset Management: All menu images and category visuals are preloaded for
 
 
 Tech Stack
-
+```
 Frontend: React + Vite
 Styling: Tailwind CSS
 Routing: React Router DOM
 State & Data: Local menuData.js file
 Deployment: Vercel
-
+```
 
 
 Installation
-
+```
 Clone the repository:
 git clone https://github.com/your-username/echo-espresso.git
 Navigate into the project folder:
@@ -36,11 +36,11 @@ npm install
 Start the development server:
 npm run dev
 The app will run at the URL displayed in your terminal (usually http://localhost:5173).
-
+```
 
 
 Project Structure
-
+```
 echo-espresso/
 ├─ public/               # Static files (favicon, robots.txt, etc.)
 ├─ src/
@@ -53,10 +53,11 @@ echo-espresso/
 ├─ index.html
 ├─ package.json
 └─ README.md
-
+```
 Usage
 
 Navigate categories via the homepage menu cards.
 Click on a subcategory to see detailed menu items.
 Reserve a table by filling out the reservation form.
 Footer contains social links, contact info, and appears on all pages except the homepage.
+
