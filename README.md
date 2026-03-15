@@ -1,21 +1,21 @@
-Echo Espresso
+## Echo Espresso
 
 Echo Espresso is a modern, responsive, and visually appealing website for a luxury cafe, designed to showcase menus, drinks, desserts, and allow table reservations. Built with React + Vite + Tailwind CSS, it provides an immersive experience for cafe enthusiasts and customers.
 
 
-Features
+## Features
 
-Menu Navigation:
-Categorized drinks and food (Signature Coffee, Cold Brew, Artisan Tea & Cocoa, Gourmet Sandwiches, Pastries).
-Subcategories with images and descriptions for easy browsing.
-Responsive Design: Fully optimized for mobile, tablet, and desktop screens.
-Reservations Form: Users can reserve tables directly via a form with date and time selection.
-Reusable Components: Header, Footer, BreadCrumbs, and Menu cards for consistent UI.
-Dynamic Routing: Uses React Router to navigate between categories and subcategories seamlessly.
-Image & Asset Management: All menu images and category visuals are preloaded for a smooth experience.
+1. Menu Navigation:
+    * Categorized drinks and food (Signature Coffee, Cold Brew, Artisan Tea & Cocoa, Gourmet Sandwiches, Pastries).
+    * Subcategories with images and descriptions for easy browsing.
+2. Responsive Design: Fully optimized for mobile, tablet, and desktop screens.
+3. Reservations Form: Users can reserve tables directly via a form with date and time selection.
+4. Reusable Components: Header, Footer, BreadCrumbs, and Menu cards for consistent UI.
+5. Dynamic Routing: Uses React Router to navigate between categories and subcategories seamlessly.
+6. Image & Asset Management: All menu images and category visuals are preloaded for a smooth experience.
 
 
-Tech Stack
+## Tech Stack
 ```
 Frontend: React + Vite
 Styling: Tailwind CSS
@@ -25,7 +25,7 @@ Deployment: Vercel
 ```
 
 
-Installation
+## Installation
 ```
 Clone the repository:
 git clone https://github.com/your-username/echo-espresso.git
@@ -39,7 +39,7 @@ The app will run at the URL displayed in your terminal (usually http://localhost
 ```
 
 
-Project Structure
+## Project Structure
 ```
 echo-espresso/
 ├─ public/               # Static files (favicon, robots.txt, etc.)
@@ -54,10 +54,9 @@ echo-espresso/
 ├─ package.json
 └─ README.md
 ```
-Usage
+## Usage
 
-Navigate categories via the homepage menu cards.
-Click on a subcategory to see detailed menu items.
-Reserve a table by filling out the reservation form.
-Footer contains social links, contact info, and appears on all pages except the homepage.
-
+* Navigate categories via the homepage menu cards.
+* Click on a subcategory to see detailed menu items.
+* Reserve a table by filling out the reservation form.
+* Footer contains social links, contact info, and appears on all pages except the homepage.
